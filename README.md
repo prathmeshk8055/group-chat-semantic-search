@@ -74,6 +74,22 @@ The following are mocked:
 
 The semantic search pipeline itself is implemented and runs locally using the BGE-M3 embedding model.
 
+## Installation
+
+### Requirements
+
+- Python 3.10 or newer
+- pip
+- Git
+
+### Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prathmeshk8055/group-chat-semantic-search.git
+cd group-chat-semantic-search
+
 ## Architecture
 
 ```text
