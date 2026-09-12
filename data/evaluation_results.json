@@ -1,0 +1,730 @@
+{
+  "total_queries": 40,
+  "correct": 30,
+  "accuracy": 75.0,
+  "hard_queries": 8,
+  "hard_correct": 8,
+  "hard_accuracy": 100.0,
+  "results": [
+    {
+      "id": "q01",
+      "query": "When did we decide on the trip?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4007",
+        "msg_4005",
+        "msg_4109",
+        "msg_4008",
+        "msg_4003",
+        "msg_4089",
+        "msg_4032",
+        "msg_4006",
+        "msg_4002"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q02",
+      "query": "Which destination did everyone finally settle on?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4109",
+        "msg_4032",
+        "msg_4108",
+        "msg_4107",
+        "msg_4111",
+        "msg_4033",
+        "msg_4068",
+        "msg_4023",
+        "msg_4066"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q03",
+      "query": "What was the final plan for the summer travel?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4002",
+        "msg_4003",
+        "msg_4109",
+        "msg_1235",
+        "msg_4001",
+        "msg_4032",
+        "msg_485",
+        "msg_4111",
+        "msg_4011"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q04",
+      "query": "Which hotel option did we choose?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4014",
+        "msg_4013",
+        "msg_4015",
+        "msg_4032",
+        "msg_4079",
+        "msg_4030",
+        "msg_4078",
+        "msg_4012",
+        "msg_4080"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q05",
+      "query": "What did the group finally agree to book?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4032",
+        "msg_4109",
+        "msg_4107",
+        "msg_4108",
+        "msg_4030",
+        "msg_4111",
+        "msg_4076",
+        "msg_4033",
+        "msg_3618"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q06",
+      "query": "Where was the trip fixed?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4109",
+        "msg_4023",
+        "msg_4111",
+        "msg_4108",
+        "msg_4107",
+        "msg_4032",
+        "msg_4033",
+        "msg_4038",
+        "msg_4078"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q07",
+      "query": "What was decided after discussing Goa and Manali?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4003",
+        "msg_4004",
+        "msg_4005",
+        "msg_4002",
+        "msg_4013",
+        "msg_4012",
+        "msg_4032",
+        "msg_4011",
+        "msg_4001"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q08",
+      "query": "Which travel plan became final?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4109",
+        "msg_4032",
+        "msg_4108",
+        "msg_4107",
+        "msg_3777",
+        "msg_4033",
+        "msg_535",
+        "msg_4078",
+        "msg_4111"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q09",
+      "query": "What approach did the team finally choose for the project?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4043",
+        "msg_4071",
+        "msg_4042",
+        "msg_4070",
+        "msg_4076",
+        "msg_4032",
+        "msg_4109",
+        "msg_4073",
+        "msg_4072",
+        "msg_4054"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q10",
+      "query": "Which technology did we settle on?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4031",
+        "msg_4043",
+        "msg_4042",
+        "msg_4071",
+        "msg_494",
+        "msg_4066",
+        "msg_4041",
+        "msg_4070",
+        "msg_2905",
+        "msg_4032"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q11",
+      "query": "What was the final technical decision?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4071",
+        "msg_4070",
+        "msg_4043",
+        "msg_2773",
+        "msg_2391",
+        "msg_3083",
+        "msg_2646",
+        "msg_4042",
+        "msg_2176",
+        "msg_4049"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q12",
+      "query": "Which programming approach was selected?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4043",
+        "msg_4042",
+        "msg_4044",
+        "msg_4041",
+        "msg_4045",
+        "msg_4072",
+        "msg_4047",
+        "msg_4073",
+        "msg_4061",
+        "msg_4053"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q13",
+      "query": "What did everyone agree to use?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4068",
+        "msg_4064",
+        "msg_4067",
+        "msg_4066",
+        "msg_4043",
+        "msg_4042",
+        "msg_4026",
+        "msg_4065",
+        "msg_4109",
+        "msg_4108"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q14",
+      "query": "What solution did the group go ahead with?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4032",
+        "msg_4043",
+        "msg_4109",
+        "msg_4042",
+        "msg_1576",
+        "msg_3403",
+        "msg_4101",
+        "msg_4110",
+        "msg_4030",
+        "msg_4033"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q15",
+      "query": "Which option became the final implementation plan?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4031",
+        "msg_4032",
+        "msg_4071",
+        "msg_4047",
+        "msg_2226",
+        "msg_4070",
+        "msg_2201",
+        "msg_4030",
+        "msg_4043",
+        "msg_4108"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q16",
+      "query": "What did the team settle on for development?",
+      "expected": "msg_4071",
+      "retrieved": [
+        "msg_4043",
+        "msg_4042",
+        "msg_4071",
+        "msg_4076",
+        "msg_4070",
+        "msg_4032",
+        "msg_2164",
+        "msg_4109",
+        "msg_4045",
+        "msg_4053"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q17",
+      "query": "Where and when was the event booked?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4108",
+        "msg_4107",
+        "msg_4111",
+        "msg_1486",
+        "msg_928",
+        "msg_882",
+        "msg_325",
+        "msg_722",
+        "msg_1513"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q18",
+      "query": "What venue did we finally choose?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4031",
+        "msg_4109",
+        "msg_4080",
+        "msg_4079",
+        "msg_4108",
+        "msg_4078",
+        "msg_4111",
+        "msg_4107",
+        "msg_4032",
+        "msg_2773"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q19",
+      "query": "What was the final arrangement for Saturday?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4111",
+        "msg_4107",
+        "msg_4108",
+        "msg_4110",
+        "msg_4094",
+        "msg_2661",
+        "msg_4093",
+        "msg_3842",
+        "msg_4096"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q20",
+      "query": "Which place was selected for the gathering?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4111",
+        "msg_4108",
+        "msg_4080",
+        "msg_4110",
+        "msg_4079",
+        "msg_4107",
+        "msg_4078",
+        "msg_759",
+        "msg_2428"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q21",
+      "query": "What did we finally book for the event?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4111",
+        "msg_4108",
+        "msg_4107",
+        "msg_4032",
+        "msg_2661",
+        "msg_4110",
+        "msg_4040",
+        "msg_1486",
+        "msg_882"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q22",
+      "query": "What was decided about the venue?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4080",
+        "msg_4079",
+        "msg_4078",
+        "msg_4108",
+        "msg_4107",
+        "msg_4111",
+        "msg_3855",
+        "msg_535",
+        "msg_325"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q23",
+      "query": "What was the confirmed Saturday plan?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4108",
+        "msg_4110",
+        "msg_4094",
+        "msg_4111",
+        "msg_4107",
+        "msg_4096",
+        "msg_4093",
+        "msg_4095",
+        "msg_2661"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q24",
+      "query": "Which location became final for the event?",
+      "expected": "msg_4109",
+      "retrieved": [
+        "msg_4109",
+        "msg_4108",
+        "msg_4107",
+        "msg_2391",
+        "msg_2599",
+        "msg_3009",
+        "msg_2259",
+        "msg_988",
+        "msg_2053",
+        "msg_3348"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q25",
+      "query": "When did we decide to go to Manali?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4003",
+        "msg_4032",
+        "msg_4005",
+        "msg_4004",
+        "msg_4013",
+        "msg_4007",
+        "msg_4006",
+        "msg_4011",
+        "msg_4023"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q26",
+      "query": "What was decided about the hotel?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4079",
+        "msg_4078",
+        "msg_4032",
+        "msg_4080",
+        "msg_535",
+        "msg_4109",
+        "msg_4030",
+        "msg_4033",
+        "msg_4014"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q27",
+      "query": "Which option did Rahul say we should book?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4033",
+        "msg_1557",
+        "msg_4031",
+        "msg_4030",
+        "msg_746",
+        "msg_4037",
+        "msg_1538",
+        "msg_4032",
+        "msg_4029",
+        "msg_3699"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q28",
+      "query": "What did Rahul finalize for the trip?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4109",
+        "msg_4108",
+        "msg_1244",
+        "msg_4040",
+        "msg_4111",
+        "msg_4107",
+        "msg_2773",
+        "msg_4038",
+        "msg_1557"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q29",
+      "query": "Goa expensive tha, uske baad kya final hua?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4004",
+        "msg_4003",
+        "msg_4002",
+        "msg_4001",
+        "msg_4005",
+        "msg_463",
+        "msg_992",
+        "msg_244",
+        "msg_1068",
+        "msg_2813"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q30",
+      "query": "Trip ke liye last mein kya fix hua?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_3777",
+        "msg_2469",
+        "msg_233",
+        "msg_182",
+        "msg_2201",
+        "msg_1981",
+        "msg_1152",
+        "msg_1827",
+        "msg_4040",
+        "msg_4033"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q31",
+      "query": "Manali wale plan ka final decision kya tha?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4032",
+        "msg_4033",
+        "msg_4030",
+        "msg_2987",
+        "msg_4006",
+        "msg_4003",
+        "msg_494",
+        "msg_4043",
+        "msg_4025"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q32",
+      "query": "Hotel ke regarding group ne kya decide kiya?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4079",
+        "msg_4078",
+        "msg_4080",
+        "msg_4032",
+        "msg_535",
+        "msg_4030",
+        "msg_4109",
+        "msg_4014",
+        "msg_4033"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q33",
+      "query": "What did the group decide after comparing the two destinations?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_4079",
+        "msg_4023",
+        "msg_4078",
+        "msg_4109",
+        "msg_4002",
+        "msg_4003",
+        "msg_4005",
+        "msg_4032",
+        "msg_4080"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q34",
+      "query": "Which place won after the cost discussion?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_463",
+        "msg_4079",
+        "msg_831",
+        "msg_4078",
+        "msg_1997",
+        "msg_3222",
+        "msg_976",
+        "msg_457",
+        "msg_4089",
+        "msg_1989"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q35",
+      "query": "What was selected after everyone discussed travel costs?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4005",
+        "msg_4006",
+        "msg_4004",
+        "msg_4007",
+        "msg_4089",
+        "msg_4003",
+        "msg_4001",
+        "msg_4002",
+        "msg_4008",
+        "msg_4079"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q36",
+      "query": "What was the outcome of the destination discussion?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4079",
+        "msg_4078",
+        "msg_535",
+        "msg_4006",
+        "msg_4033",
+        "msg_4080",
+        "msg_3855",
+        "msg_4007",
+        "msg_4032",
+        "msg_426"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q37",
+      "query": "Which plan was approved after the date discussion?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4109",
+        "msg_4108",
+        "msg_4110",
+        "msg_3474",
+        "msg_3736",
+        "msg_700",
+        "msg_2287",
+        "msg_4107",
+        "msg_4111",
+        "msg_2572"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q38",
+      "query": "What concrete action followed the trip discussion?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4033",
+        "msg_4032",
+        "msg_4006",
+        "msg_4007",
+        "msg_426",
+        "msg_485",
+        "msg_4001",
+        "msg_4031",
+        "msg_4002",
+        "msg_4024"
+      ],
+      "hit": true
+    },
+    {
+      "id": "q39",
+      "query": "What did the group lock in after discussing the travel arrangements?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4033",
+        "msg_4079",
+        "msg_4111",
+        "msg_4078",
+        "msg_4109",
+        "msg_4110",
+        "msg_4080",
+        "msg_4032",
+        "msg_2661",
+        "msg_535"
+      ],
+      "hit": false
+    },
+    {
+      "id": "q40",
+      "query": "What was the final outcome of the summer trip conversation?",
+      "expected": "msg_4031",
+      "retrieved": [
+        "msg_4031",
+        "msg_1235",
+        "msg_4002",
+        "msg_4003",
+        "msg_485",
+        "msg_4001",
+        "msg_4007",
+        "msg_4008",
+        "msg_2686",
+        "msg_4032"
+      ],
+      "hit": true
+    }
+  ]
+}
