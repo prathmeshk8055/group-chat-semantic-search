@@ -32,7 +32,7 @@ This project uses semantic embeddings and intent-aware ranking to retrieve the r
 - Conversation context around the retrieved message
 - Supports natural-language queries
 - Evaluation on 40 test queries
-- Includes 8 hard zero-word-overlap queries
+- Includes 8 designated hard queries with low word overlap
 - Interactive Streamlit demo
 
 ---
@@ -59,6 +59,7 @@ The three major decision threads cover:
 3. Event planning
 
 ---
+
 ## What's Mocked
 
 The chat corpus is synthetic and generated specifically for this assignment.
@@ -73,6 +74,8 @@ The following are mocked:
 - Test queries and ground-truth message IDs
 
 The semantic search pipeline itself is implemented and runs locally using the BGE-M3 embedding model.
+
+---
 
 ## Installation
 
@@ -89,32 +92,3 @@ Clone the repository:
 ```bash
 git clone https://github.com/prathmeshk8055/group-chat-semantic-search.git
 cd group-chat-semantic-search
-
-## Architecture
-
-```text
-User Query
-    |
-    v
-Query Embedding
-    |
-    v
-BGE-M3 Semantic Retrieval
-    |
-    v
-Candidate Messages
-    |
-    v
-Intent-Aware Reranking
-    |
-    +---- Decision signals
-    |
-    +---- Outcome signals
-    |
-    +---- Concrete choice signals
-    |
-    v
-Best Matching Message
-    |
-    v
-Conversation Context
