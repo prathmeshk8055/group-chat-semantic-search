@@ -59,6 +59,20 @@ The three major decision threads cover:
 3. Event planning
 
 ---
+## What's Mocked
+
+The chat corpus is synthetic and generated specifically for this assignment.
+
+The following are mocked:
+
+- Group chat messages
+- Participant names
+- Timestamps
+- Conversation history
+- Decision-making conversations
+- Test queries and ground-truth message IDs
+
+The semantic search pipeline itself is implemented and runs locally using the BGE-M3 embedding model.
 
 ## Architecture
 
